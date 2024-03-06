@@ -1,0 +1,124 @@
+.comics__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+}
+
+.comics {
+    padding: 30px 0;
+}
+
+.comics__homepage {
+    /* position: relative; */
+}
+
+.comics__cards-info {
+    box-shadow: 1px 1px 10px 1px black;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    /* height: 310px; */
+    background-color: black;
+    color: aliceblue;
+    transition-duration: 0.5s;
+}
+
+.comics h3 {
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+}
+
+.comics h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.comics__cards img {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.comics__more {
+    margin: 30px auto 0 auto;
+    
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background: rgba(11, 20, 42, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.comics__cards .comics__spiner {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal__active{
+	z-index: 1;
+	opacity: 1;
+}
+
+.modal__window {
+    padding: 15px;
+    width: 750px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #1c2025;
+}
+
+.modal__window .row{
+    justify-content: start;
+    gap: 10px;
+}
+
+
+.modal__window h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.modal__window p {
+    margin-bottom: 15px;
+}
+
+.modal__close-btn{
+    width: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.buy {
+    margin-top: 15px;
+}
+
+.modal__window img {
+
+    width: 250px;
+}
+
+
+.modal__window p {
+    color: white;
+}

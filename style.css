@@ -1,0 +1,46 @@
+@import url("/src/style/random.css");
+@import url("/src/style/header.css");
+@import url("/src/style/heroes.css");
+@import url("/src/style/comics.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #13131a;
+    min-height: 100dvh;
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 1480px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+button {
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    width: 120px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 30px 0 0 0;
+    display: block;
+}
+

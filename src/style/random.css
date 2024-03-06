@@ -1,0 +1,85 @@
+.card__info {
+    position: relative;
+}
+
+.card__info h3 {
+    padding-bottom: 12px;
+    font-size: 25px;
+}
+
+.random .row {
+    gap: 15px;
+}
+
+.random__card {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 700px;
+    background-color: black;
+    color: aliceblue;
+    height: 270px;
+    box-shadow: 0px 0px 15px 3px black;
+}
+
+.random__card .row {
+    justify-content: flex-start;
+}
+
+.random__card a {
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    width: 120px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    background-color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.random__card img {
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    height: 200px;
+}
+
+.random__card .random__hero-img {
+    width: 200px;
+    height: 230px;
+    margin: 0;
+}
+
+.random__hero h3 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.random__hero p {
+    font-size: 30px;
+}
+
+.random__hero {
+    box-shadow: 0px 0px 15px 3px black;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 700px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+}
+
+.random__hero .row {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: start;
+}
+
+.random__hero img {
+    border-radius: 10px;
+    width: 200px;
+}
