@@ -1,5 +1,6 @@
 import Heroes from "./src/script/heroes.js";
 import Comics from "./src/script/comics.js";
+// import library from "./src/script/library.js"
 import { getHtml } from "./src/services/service.js";
 
 const mainContainer = document.querySelector("main")
@@ -25,6 +26,12 @@ function renderContent() {
 			.then(data => mainContainer.innerHTML = data)
 			.then(() => { comicsComponent = new Comics() })
 	}
+
+// 	if (currentContent === "library") {
+// 		getHtml("library")
+// 		.then(data => mainContainer.innerHTML = data)
+// 		.then(() => { libraryComponent = new library()})
+// 	}
 }
 
 renderContent()
